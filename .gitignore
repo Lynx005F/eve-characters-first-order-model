@@ -1,3 +1,16 @@
 /.vscode
 __pycache__
 /venv
+input/*
+!input/default.mp4
+input_snips
+!input_snips/default_0.mp4
+output/*
+!output/default.mp4
+output_snips/*
+!output_snips/default_0.mp4
+profiles/*
+!profiles
+!profiles/default.png
+*.mp4
+

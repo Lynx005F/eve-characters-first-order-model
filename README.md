@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 
 ### Pre-trained checkpoint
-So far there is a pretrained neural network for pictures of 256x256 Pixels by the original Repo. Ideally there would be options for bigger resolutions, but I did not come around to create some.
+So far there is a pretrained neural network for pictures of 256x256 Pixels by the original Repo. Ideally there would be options for bigger resolutions, but I did not come around to create some, mostly due to VRAM limitations (this set uses about 11gb).
 
 
 ### Image animation
@@ -23,10 +23,10 @@ So far there is a pretrained neural network for pictures of 256x256 Pixels by th
  In order to animate your own characters, follow these steps.
  
  1. Create a video with you talking your desired text in person, you should be in the center of the picture.
- 2. Put that video into the `input` folder. In the name you should add `_{picture to animate}` at the end. If you put If you out `_{characterID}` at the end then the current profile picture of that character wil automatically be downloaded and you can skip the next step.
+ 2. Put that video into the `input` folder. In the name you should add `_{name of picture to animate}` at the end. If you put If you put `_{characterID}` at the end then the current profile picture of that character wil automatically be downloaded and you can skip the next step.
  3. Put the picture that should be animated into the `profiles` folder. 
  4. run `eve.py`
- 5. collect the animated character from `òutput`. You might have to do some retouching, neural networks aren't perfect ;)
+ 5. collect the animated character from `output`. You might have to do some retouching, neural networks aren't perfect ;)
 
 
 #### Additional notes
